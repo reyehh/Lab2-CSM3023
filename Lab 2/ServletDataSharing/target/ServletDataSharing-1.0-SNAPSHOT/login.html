@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Login Page</title>
+        <style>
+body {
+    background-color: black;
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+</style></head>
+    <body>
+        <h1>Welcome to CSM3032</h1>
+        <p>Please insert your username and password</p>
+        <form name="login" id="login" action="LoginServlet" method="POST" autocomplete="off">
+            Username:<input name="txtUsername" type="text"><br>
+            Password:<input name="txtPassword" type="text"><br>
+            <br>
+            <input name="btnLogin" value="Login" type="submit">
+            <input name="txtReset" value="Reset" type="reset"><br>
+        </form>
+        <p><br>
+        </p>
+            
+    </body>
+</html>
